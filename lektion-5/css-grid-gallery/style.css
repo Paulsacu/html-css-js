@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgb(200, 30, 30);
+
+}
+
+
+.d-grid {
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+#box-1 {
+    display: grid;
+}
+
+#box-2 {}
+
+#box-3 {}
+
+#box-4 {}
+
+#box-5 {}
+
+#box-6 {}
+
